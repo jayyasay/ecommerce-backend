@@ -8,7 +8,7 @@ const PORT = 4000
 
 // const mongoose = require("mongoose");
 
-// const ImageModel = require("./image.model");
+const ImageModel = require("./image.model");
 
 // mongoose.connect(process.env.MONGO_URL, {
 //   useNewUrlParser: true,
