@@ -4,15 +4,15 @@ const express = require('express')
 const app = express()
 const PORT = 4000
 
-require("dotenv").config();
+// require("dotenv").config();
 
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 
-const ImageModel = require("./image.model");
+// const ImageModel = require("./image.model");
 
-mongoose.connect(process.env.MONGO_URL, {
-  useNewUrlParser: true,
-});
+// mongoose.connect(process.env.MONGO_URL, {
+//   useNewUrlParser: true,
+// });
 
 app.listen(PORT, () => {
   console.log(`API listening on PORT ${PORT} `)
